@@ -1,4 +1,4 @@
-# Speicher <p>
+# Speicher
   
 ### App de Tarefas
 
