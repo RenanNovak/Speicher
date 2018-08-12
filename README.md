@@ -11,15 +11,21 @@ Tecnologias a ser utilizadas:<p>
 <img src="https://github.com/RenanNovak/Speicher/blob/master/Speicher.jpg"/> <p>
   
 ##### Cadastro:
+Necessario para poder utilizar as funcionalidades do aplicativo
 
 ##### Login:
+Segurança necessaria para garantir que o usuario tenha acesso apenas as informaçoes correspondentes o seu cadastro
 
 ##### Tarefas:
+Funionalidade para registro, edição e exclusão de atividades a serem realizadas pelo usuario
 
 ##### Lembretes:
+Funionalidade para registro, edição e exclusão de lembretes a serem enviados ao usuario
 
 ##### Arquivos:
+Funionalidade para registro, edição e exclusão de atividades ou lembretes ja realizadas
 
 ##### Lixeira:
+Funionalidade para exclusão de atividades e lembretes excluidos pelo usuario
 
 
