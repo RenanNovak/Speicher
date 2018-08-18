@@ -8,7 +8,7 @@ Tecnologias a ser utilizadas:<p>
 -> JUnit para realizar Testes Unitários<p>
 
 # Diagrama de Caso de Uso
-<img src="https://github.com/RenanNovak/Speicher/imagens/Speicher.jpg"/> <p>
+<img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/Speicher.jpg"/> <p>
   
 ##### Cadastro:
 Necessario para poder utilizar as funcionalidades do aplicativo
