@@ -10,25 +10,25 @@ Tecnologias a ser utilizadas:<p>
 # Diagrama de Caso de Uso<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/diagrama.jpg"/> <p>
 
-##### Home:<p>
+### Home:<p>
 Tela de boas vindas ao usuário<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/home.jpg"/> <p>  
-##### Cadastro:<p>
+### Cadastro:<p>
 Necessario para poder utilizar as funcionalidades do aplicativo<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/cadastro.jpg"/> <p>
-##### Login:<p>
+### Login:<p>
 Segurança necessaria para garantir que o usuario tenha acesso apenas as informaçoes correspondentes o seu cadastro<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/login.jpg"/> <p>
-##### Tarefas:<p>
+### Tarefas:<p>
 Funionalidade para registro, edição e exclusão de atividades a serem realizadas pelo usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/construcao.jpg"/> <p>
-##### Lembretes:<p>
+### Lembretes:<p>
 Funionalidade para registro, edição e exclusão de lembretes a serem enviados ao usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/construcao.jpg"/> <p>
-##### Arquivos:<p>
+### Arquivos:<p>
 Funionalidade para registro, edição e exclusão de atividades ou lembretes ja realizadas<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/construcao.jpg"/> <p>
-##### Lixeira:<p>
+### Lixeira:<p>
 Funionalidade para exclusão de atividades e lembretes excluidos pelo usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/construcao.jpg"/> <p>
 
