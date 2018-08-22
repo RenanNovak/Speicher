@@ -35,6 +35,6 @@ Funionalidade para visualizar as tarefas cadastradas, com opção de edição e 
 Funionalidade para registro dos lembretes a serem enviados para o usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/IncluirLembrete.JPG"/> <p>
 ### Lixeira:<p>
-Funionalidade para visualizar de atividades e lembretes excluidos pelo usuario<p>
+Funionalidade para visualização de atividades e lembretes excluidos pelo usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/Lixeira.JPG"/> <p>
 
