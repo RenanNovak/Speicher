@@ -27,10 +27,10 @@ Funionalidade para visualizar as tarefas cadastradas, com opção de edição e 
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/ListaTarefa.jpg"/> <p>
 ### Incluir Tarefas:<p>
 Funionalidade para registro das tarefas a serem realizadas pelo usuario<p>
-<img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/ListaTarefa.jpg"/> <p>
+<img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/IncluirTarefa.jpg"/> <p>
 ### Lista de Lembretes:<p>
 Funionalidade para visualizar as tarefas cadastradas, com opção de edição e exclusão de lembretes a serem enviados ao usuario<p>
-<img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/IncluirTarefa.jpg"/> <p>
+<img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/ListaLembretes.jpg"/> <p>
 ### Incluir Lembretes:<p>
 Funionalidade para registro dos lembretes a serem enviados para o usuario<p>
 <img src="https://raw.githubusercontent.com/RenanNovak/Speicher/master/imagens/IncluirLembrete.JPG"/> <p>
