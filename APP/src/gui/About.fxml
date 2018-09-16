@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT" opacity="0.2">
+            <image>
+                <Image url="@../gui/img/01.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="78.0" layoutY="54.0" text="Sobre">
+            <font>
+                <Font name="Arial" size="20.0" />
+            </font>
+        </Label>
+      <Label layoutX="84.0" layoutY="287.0" text="Referencias:">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="310.0" prefHeight="11.0" prefWidth="638.0" text="https://followthecolours.com.br/wp-content/uploads/2015/03/follow-the-colours-cerebro-memoria-criatividade-shutterstock_171381824-copy.jpg">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="321.0" prefHeight="11.0" prefWidth="638.0" text="https://cdn2.iconfinder.com/data/icons/time-date-management-1/64/time__data_management-12-512.png">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="77.0" prefHeight="23.0" prefWidth="638.0" text="Aplicativo desenvolvido no curso de engeneharia de software da Universidade da região de " textOverrun="CLIP">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="100.0" prefHeight="23.0" prefWidth="631.0" text="Joinville na materia de programação orientada a objetos" textOverrun="CLIP">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>
