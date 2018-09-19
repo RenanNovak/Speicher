@@ -2,42 +2,42 @@ package entity;
 
 public class User {
 
-    private long id;
-    private String name;
-    private String email;
-    private String password;
+    private long iduser;
+    private String nameuser;
+    private String emailuser;
+    private String passworduser;
 
 
-    public long getId() {
-        return id;
+    public long getIduser() {
+        return iduser;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setIduser(long iduser) {
+        this.iduser = iduser;
     }
 
-    public String getName() {
-        return name;
+    public String getNameuser() {
+        return nameuser;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameuser(String nameuser) {
+        this.nameuser = nameuser;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPassworduser() {
+        return passworduser;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassworduser (String passworduser) {
+        this.passworduser = passworduser;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailuser () {
+        return emailuser;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmailuser(String emailuser) {
+        this.emailuser = emailuser;
     }
 
 }

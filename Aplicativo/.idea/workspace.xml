@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dao/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/APP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/dao/UsuarioDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/factory/ConnectionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/factory/TestaConexao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/About.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Cadastro.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Home.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/IncluirLembrete.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/IncluirTarefa.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Index.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/ListaLembretes.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/ListaTarefas.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Lixeira.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/gui/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/out/production/APP/modelo/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/com/company/dao/UsuarioDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/factory/ConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/factory/TestaConexao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/About.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/Cadastro.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/Home.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/IncluirLembrete.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/IncluirTarefa.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/Index.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/ListaLembretes.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/ListaTarefas.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/Lixeira.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/Login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/gui/img/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../APP/src/modelo/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ListaTarefas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaTarefas.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,25 +62,27 @@
     <session id="-1206228699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="fxml" value="17" />
-          <entry key="java" value="9" />
+          <entry key="java" value="13" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="12" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="17" />
@@ -126,12 +90,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="120" />
+          <entry key="java" value="357" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="120" />
+          <entry key="JAVA" value="357" />
         </counts>
       </usages-collector>
     </session>
@@ -142,67 +106,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
-          <provider editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/sample/About.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Cadastro.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/About.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Login.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Lixeira.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/entity/lembrete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/tarefas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ListaTarefas.fxml">
-          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ListaLembretes.fxml">
-          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
-          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/IncluirTarefa.fxml">
-          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/IncluirLembrete.fxml">
-          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -225,21 +200,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/dao/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Login.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Lixeira.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ListaTarefas.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Index.fxml" />
         <option value="$PROJECT_DIR$/src/sample/IncluirTarefa.fxml" />
         <option value="$PROJECT_DIR$/src/sample/IncluirLembrete.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Home.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Cadastro.fxml" />
         <option value="$PROJECT_DIR$/src/sample/About.fxml" />
+        <option value="$PROJECT_DIR$/src/entity/lembrete.java" />
+        <option value="$PROJECT_DIR$/src/entity/tarefas.java" />
+        <option value="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ListaTarefas.fxml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/entity/User.java" />
       </list>
     </option>
   </component>
@@ -267,9 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +260,12 @@
               <item name="Aplicativo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Aplicativo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aplicativo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aplicativo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +276,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +291,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537313125533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537395166455" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/mysql-connector-java-8.0.12.jar!/" />
@@ -428,17 +411,19 @@
       <workItem from="1537310042570" duration="2554000" />
       <workItem from="1537312739243" duration="448000" />
       <workItem from="1537313267091" duration="303000" />
+      <workItem from="1537393982664" duration="812000" />
+      <workItem from="1537394862652" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4607000" />
+    <option name="totallyTimeSpent" value="5722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,6 +457,41 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18835099" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35188216" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -500,16 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -521,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -551,71 +551,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/sample/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/sample/Home.fxml">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/Main.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/sample/Main.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/Aplicativo/sample/Home.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Cadastro.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Login.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="255">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Lixeira.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaTarefas.fxml">
       <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ListaLembretes.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/IncluirTarefa.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/IncluirLembrete.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/sample/IncluirTarefa.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Cadastro.fxml">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaLembretes.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ListaTarefas.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/tarefas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/About.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/lembrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

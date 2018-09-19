@@ -14,9 +14,9 @@ public class Main {
 
 
         User user = new User();
-        user.setName("Elba");
-        user.setPassword("Ragnarok");
-        user.setEmail("Idris@Idris.com.br");
+        user.setNameuser("Elba");
+        user.setPassworduser("Ragnarok");
+        user.setEmailuser("Idris@Idris.com.br");
 
         UserDAO userDAO = new UserDAO();
         //userDAO.deleteAll();
