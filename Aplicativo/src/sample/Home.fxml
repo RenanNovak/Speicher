@@ -9,18 +9,18 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
    <children>
       <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT">
          <image>
             <Image url="@img/01.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="660.0" layoutY="215.0" mnemonicParsing="false" text="Login">
+      <Button fx:id="homelogin" layoutX="660.0" layoutY="215.0" mnemonicParsing="false" text="Login">
          <font>
             <Font size="20.0" />
          </font></Button>
-      <Button layoutX="47.0" layoutY="215.0" mnemonicParsing="false" text="Cadastro">
+      <Button fx:id="homecontrole" layoutX="47.0" layoutY="215.0" mnemonicParsing="false" text="Cadastro">
          <font>
             <Font size="20.0" />
          </font></Button>
