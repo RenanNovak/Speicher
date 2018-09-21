@@ -16,30 +16,30 @@
             <Image url="@img/01.jpg" />
          </image>
         </ImageView>
-        <Button fx:id="cadastrarlogin" layoutX="221.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Cadastrar">
+        <Button layoutX="221.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Cadastrar">
             <font>
                 <Font size="20.0" />
             </font></Button>
-        <Button fx:id="voltarlogin" layoutX="374.0" layoutY="419.0" mnemonicParsing="false" text="Voltar" />
+        <Button layoutX="374.0" layoutY="419.0" mnemonicParsing="false" text="Voltar" />
         <Label layoutX="357.0" layoutY="44.0" text="Cadastro">
             <font>
                 <Font name="Arial" size="20.0" />
             </font>
         </Label>
-        <TextField id="01" fx:id="namelogin" layoutX="221.0" layoutY="119.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui seu nome">
+        <TextField id="01" layoutX="221.0" layoutY="119.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui seu nome">
             <font>
                 <Font size="20.0" />
             </font></TextField>
-        <PasswordField id="03" fx:id="senhalogin" layoutX="221.0" layoutY="222.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui sua senha">
+        <PasswordField id="03" layoutX="221.0" layoutY="222.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui sua senha">
             <font>
                 <Font size="20.0" />
             </font></PasswordField>
-      <TextField id="02" fx:id="emaillogin" layoutX="221.0" layoutY="170.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui seu e-mail ">
+      <TextField id="02" layoutX="221.0" layoutY="170.0" prefHeight="44.0" prefWidth="354.0" promptText="Digite aqui seu e-mail ">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="limparlogin" layoutX="422.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Limpar">
+      <Button layoutX="422.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Limpar">
          <font>
             <Font size="20.0" />
          </font>

@@ -1,18 +1,21 @@
 
-import java.sql.Connection;
+        import java.sql.Connection;
         import java.sql.DriverManager;
         import java.sql.PreparedStatement;
         import java.sql.ResultSet;
         import java.sql.Statement;
-
+        import dao.lembreteDAO;
+        import dao.tarefasDAO;
         import dao.UserDAO;
         import entity.User;
+        import entity.tarefas;
+        import entity.lembrete;
 
 public class Main {
 
     public static void main(String[] args) {
 
-
+        // inserir tabela user
         User user = new User();
         user.setNameuser("Elba");
         user.setPassworduser("Ragnarok");
@@ -22,6 +25,33 @@ public class Main {
         //userDAO.deleteAll();
         userDAO.insert(user);
         //userDAO.update(user);
+
+
+
+
+        // inserir tabela tarefas
+        tarefas tarefas = new tarefas();
+        tarefas.setNametarefa("Elba");
+        tarefas.setTextotarefa("Ragnarok");
+        tarefasDAO tarefasDAO = new tarefasDAO();
+        //userDAO.deleteAll();
+        tarefasDAO.insert(tarefas);
+        //userDAO.update(user);
+
+
+
+
+
+        // inserir tabela tarefas
+        lembrete lembrete = new lembrete();
+        lembrete.setNameLembrete("Elba");
+        lembrete.setDatalembrete("2004-07-12");
+        lembrete.setTextolembrete("Ragnarok");
+        lembreteDAO lembreteDAO = new lembreteDAO();
+        //userDAO.deleteAll();
+        lembreteDAO.insert(lembrete);
+        //userDAO.update(user);
+
 
 
 /*
