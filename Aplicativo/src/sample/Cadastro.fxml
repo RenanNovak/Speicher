@@ -20,7 +20,7 @@
             <font>
                 <Font size="20.0" />
             </font></Button>
-        <Button fx:id="voltarlogin" layoutX="374.0" layoutY="419.0" mnemonicParsing="false" text="Voltar" />
+        <Button fx:id="voltarlogin" onAction="#voltar" layoutX="374.0" layoutY="419.0" mnemonicParsing="false" text="Voltar" />
         <Label layoutX="357.0" layoutY="44.0" text="Cadastro">
             <font>
                 <Font name="Arial" size="20.0" />
@@ -39,7 +39,7 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="limparlogin" layoutX="422.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Limpar">
+      <Button fx:id="limparlogin" layoutX="422.0" onAction="#limpar" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Limpar">
          <font>
             <Font size="20.0" />
          </font>

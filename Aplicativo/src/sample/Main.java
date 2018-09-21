@@ -8,12 +8,16 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static Stage stage;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
-        primaryStage.setTitle("Speicher - Gerenciador de Tarefas");
-        primaryStage.setScene(new Scene(root, 800, 500));
-        primaryStage.show();
+        stage = primaryStage;
+        Parent root = FXMLLoader.load(getClass().getResource("Cadastro.fxml"));
+        Scene scene = new Scene(root, 800, 500);
+        stage.setTitle("Speicher - Gerenciador de Tarefas");
+        stage.setScene(scene);
+        stage.show();
     }
 
 
