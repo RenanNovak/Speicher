@@ -9,28 +9,28 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:controller="sample.LoginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
     <children>
         <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT" opacity="0.2">
             <image>
                 <Image url="@img/01.jpg" />
             </image>
         </ImageView>
-        <Button layoutX="323.0" layoutY="279.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Entrar">
+        <Button fx:id="loginentrar" layoutX="323.0" layoutY="279.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Entrar">
          <font>
             <Font size="20.0" />
          </font></Button>
-        <Button layoutX="376.0" layoutY="353.0" mnemonicParsing="false" text="Voltar" />
+        <Button fx:id="loginvoltar" layoutX="376.0" layoutY="353.0" mnemonicParsing="false" text="Voltar" />
         <Label layoutX="377.0" layoutY="37.0" text="Login">
             <font>
                 <Font name="Arial" size="20.0" />
             </font>
         </Label>
-      <TextField  layoutX="234.0" layoutY="132.0" prefHeight="25.0" prefWidth="333.0" promptText="Digite aqui seu e-mail ou usuário">
+      <TextField fx:id="loginemail" layoutX="234.0" layoutY="132.0" prefHeight="25.0" prefWidth="333.0" promptText="Digite aqui seu e-mail ou usuário">
          <font>
             <Font size="20.0" />
          </font></TextField>
-      <PasswordField layoutX="234.0" layoutY="206.0" prefHeight="25.0" prefWidth="333.0" promptText="Digite aqui sua senha">
+      <PasswordField fx:id="loginsenha" layoutX="234.0" layoutY="206.0" prefHeight="25.0" prefWidth="333.0" promptText="Digite aqui sua senha">
          <font>
             <Font size="20.0" />
          </font></PasswordField>

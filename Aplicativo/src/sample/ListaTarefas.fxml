@@ -9,13 +9,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:controller="sample.ListaTarefasController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ListaTarefasController">
     <children>
         <ImageView fitHeight="500.0" fitWidth="800.0" layoutX="-21.0" layoutY="-26.0" nodeOrientation="INHERIT" opacity="0.2">
          <image>
             <Image url="@img/01.jpg" />
          </image></ImageView>
-        <Button layoutX="431.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Editar">
+        <Button fx:id="editartarefa" layoutX="431.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Editar">
             <font>
                 <Font size="20.0" />
             </font></Button>
@@ -25,18 +25,18 @@
                 <Font name="Arial" size="20.0" />
             </font>
         </Label>
-      <Button layoutX="586.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Excluir">
+      <Button fx:id="excluirtarefa" layoutX="586.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Excluir">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button layoutX="276.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Incluir">
+      <Button fx:id="incluirtarefa" layoutX="276.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Incluir">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
       <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Home" />
-      <TableView layoutX="62.0" layoutY="68.0" prefHeight="343.0" prefWidth="677.0">
+      <TableView fx:id="listatarefas" layoutX="62.0" layoutY="68.0" prefHeight="343.0" prefWidth="677.0">
         <columns>
           <TableColumn prefWidth="75.0" text="Id Tarefa" />
           <TableColumn prefWidth="147.0" text="Nome Tarefa" />

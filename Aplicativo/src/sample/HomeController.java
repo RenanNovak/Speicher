@@ -1,9 +1,13 @@
 package sample;
 
+import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
 public class HomeController {
-    public Button homelogin;
-    public Button homecontrole;
+
+    @FXML
+    private Button homelogin;
+    @FXML
+    private Button homecadastro;
 
 }
