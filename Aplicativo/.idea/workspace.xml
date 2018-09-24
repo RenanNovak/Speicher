@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/dao/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/dao/ConnectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/dao/lembreteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/dao/lembreteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/dao/tarefasDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/dao/tarefasDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/sample/About.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/Cadastro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/sample/Cadastro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/CadastroController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/sample/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/sample/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aplicativo/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aplicativo/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/About.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/About.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AboutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/AboutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Cadastro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Cadastro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CadastroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CadastroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/IncluirLembrete.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IncluirLembrete.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/IncluirLembreteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IncluirLembreteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/IncluirTarefa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IncluirTarefa.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/IncluirTarefaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IncluirTarefaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Index.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Index.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ListaLembretes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,7 +56,7 @@
     <session id="-1206228699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="2" />
@@ -136,84 +109,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/About.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ListaLembretes.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/AboutController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -365,7 +261,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537830191051" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537830320179" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-9.0.4/lib/javafx-swt.jar!/" />
@@ -503,16 +399,15 @@
       <workItem from="1537490957817" duration="588000" />
       <workItem from="1537568534915" duration="4950000" />
       <workItem from="1537823025306" duration="513000" />
-      <workItem from="1537823742743" duration="6430000" />
+      <workItem from="1537823742743" duration="6778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23114000" />
+    <option name="totallyTimeSpent" value="23462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -523,7 +418,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35188216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35188216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -739,40 +634,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/About.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AboutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -780,6 +645,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -793,8 +665,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-272">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Index.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Home.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
