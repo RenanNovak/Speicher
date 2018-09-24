@@ -7,13 +7,8 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:controller="sample.AboutController"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutController">
     <children>
-        <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT" opacity="0.2">
-            <image>
-                <Image url="@img/01.jpg" />
-            </image>
-        </ImageView>
         <Label layoutX="78.0" layoutY="54.0" text="Sobre">
             <font>
                 <Font name="Arial" size="20.0" />
@@ -45,5 +40,10 @@
          </font>
       </Label>
       <Button fx:id="aboutvoltar" layoutX="377.0" layoutY="420.0" mnemonicParsing="false" text="Voltar" />
+        <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT" opacity="0.33">
+         <image>
+            <Image url="@img/01.jpg" />
+         </image>
+        </ImageView>
     </children>
 </Pane>
