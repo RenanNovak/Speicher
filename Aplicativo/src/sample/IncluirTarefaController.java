@@ -1,9 +1,15 @@
 package sample;
 
+import dao.ConnectionFactory;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class IncluirTarefaController {
 
@@ -16,5 +22,34 @@ public class IncluirTarefaController {
     private Button salvartarefa;
     @FXML
     private Button listartarefas;
+
+
+
+    @FXML
+    public void salvartarefas (ActionEvent actionEvent) throws SQLException {
+        //System.out.println("Dado inserido no banco de dados!");
+        Connection conn = ConnectionFactory.getConnection();
+
+        //String ssq = "INSERT INTO user (nameUser, passwordUser, emailUser) " +
+        //"VALUES ( \'" +
+        //namelogin.getText() + "\', \'" +
+        // senhalogin.getText() + "\', \''" +
+        // emaillogin.getText() + "\')";
+
+        PreparedStatement stmt = conn.prepareStatement("INSERT INTO tarefa (nametarefa, textotarefa) " +
+                "VALUES ( \'" +
+                nometarefa.getText() + "\', \'" +
+
+                textotarefa.getHtmlText() + "\')");
+
+        stmt.execute();
+        /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
+        delete.execut1e();*/
+        //Node b = (Node) actionEvent.getSource();
+        // b.getScene().getWindow().hide();
+
+
+        System.out.println(actionEvent.getSource());
+    }
 
 }

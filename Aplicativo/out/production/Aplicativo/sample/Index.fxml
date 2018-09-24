@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:controller="sample.IndexController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.IndexController">
     <children>
         <ImageView fitHeight="500.0" fitWidth="800.0" nodeOrientation="INHERIT" opacity="0.2">
             <image>
@@ -16,16 +16,16 @@
         </ImageView>
       <Separator layoutX="249.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="10.0" />
       <Separator layoutX="537.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="10.0" />
-      <Button fx:id="indextarefas" layoutX="99.0" layoutY="228.0" mnemonicParsing="false" text="Tarefas">
+      <Button fx:id="indextarefas" layoutX="99.0" layoutY="228.0" mnemonicParsing="false" onAction="#indextarefas" text="Tarefas">
          <font>
             <Font size="20.0" />
          </font></Button>
-      <Button fx:id="indexlembretes" layoutX="340.0" layoutY="228.0" mnemonicParsing="false" text="Lembretes">
+      <Button fx:id="indexlembretes" layoutX="340.0" layoutY="228.0" mnemonicParsing="false" onAction="#indexlembretes" text="Lembretes">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="indexlixeira" layoutX="632.0" layoutY="228.0" mnemonicParsing="false" text="Lixeira">
+      <Button fx:id="indexsobre" layoutX="632.0" layoutY="228.0" mnemonicParsing="false" onAction="#sobre" text="Sobre">
          <font>
             <Font size="20.0" />
          </font>

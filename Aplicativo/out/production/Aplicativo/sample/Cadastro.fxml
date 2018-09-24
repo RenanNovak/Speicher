@@ -16,7 +16,7 @@
             <Image url="@img/01.jpg" />
          </image>
         </ImageView>
-        <Button fx:id="cadastrarlogin" layoutX="221.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Cadastrar">
+        <Button fx:id="cadastrarlogin" onAction="#cadastrarlogin" layoutX="221.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Cadastrar">
             <font>
                 <Font size="20.0" />
             </font></Button>
