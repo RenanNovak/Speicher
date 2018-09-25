@@ -14,21 +14,16 @@
                 <Image url="@img/01.jpg" />
             </image>
         </ImageView>
-      <Separator layoutX="249.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="10.0" />
-      <Separator layoutX="537.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="10.0" />
-      <Button fx:id="indextarefas" layoutX="99.0" layoutY="228.0" mnemonicParsing="false" onAction="#indextarefas" text="Tarefas">
+      <Separator layoutX="395.0" orientation="VERTICAL" prefHeight="500.0" prefWidth="10.0" />
+      <Button fx:id="indextarefas" layoutX="165.0" layoutY="228.0" mnemonicParsing="false" onAction="#indextarefas" text="Tarefas">
          <font>
             <Font size="20.0" />
          </font></Button>
-      <Button fx:id="indexlembretes" layoutX="340.0" layoutY="228.0" mnemonicParsing="false" onAction="#indexlembretes" text="Lembretes">
+      <Button fx:id="indexsobre" layoutX="552.0" layoutY="228.0" mnemonicParsing="false" onAction="#sobre" prefHeight="44.0" prefWidth="91.0" text="Sobre">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="indexsobre" layoutX="632.0" layoutY="228.0" mnemonicParsing="false" onAction="#sobre" text="Sobre">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Button>
+      <Button fx:id="sairindex" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#sairindex" prefHeight="25.0" prefWidth="62.0" text="Sair" />
     </children>
 </Pane>

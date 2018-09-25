@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         stage = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("index.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Scene scene = new Scene(root, 800, 500);
         stage.setTitle("Speicher - Gerenciador de Tarefas");
         stage.setScene(scene);

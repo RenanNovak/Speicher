@@ -16,7 +16,8 @@ public class IndexController {
     private Button indexlembretes;
     @FXML
     private Button indexsobre;
-
+    @FXML
+    private Button sairindex;
     @FXML
     public void indextarefas() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("ListaTarefas.fxml"));
@@ -33,6 +34,12 @@ public class IndexController {
     @FXML
     public void sobre() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("about.fxml"));
+        Main.stage.setScene(new Scene(root, 800, 500));
+    }
+
+    @FXML
+    public void sairindex() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Main.stage.setScene(new Scene(root, 800, 500));
     }
 }

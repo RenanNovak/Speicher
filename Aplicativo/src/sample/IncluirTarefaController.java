@@ -3,10 +3,14 @@ package sample;
 import dao.ConnectionFactory;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -22,6 +26,20 @@ public class IncluirTarefaController {
     private Button salvartarefa;
     @FXML
     private Button listartarefas;
+    @FXML
+    private Button homehome;
+
+    @FXML
+    public void hometarefa() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("index.fxml"));
+        Main.stage.setScene(new Scene(root, 800, 500));
+    }
+
+    @FXML
+    public void setListartarefas() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("ListaTarefas.fxml"));
+        Main.stage.setScene(new Scene(root, 800, 500));
+    }
 
 
 
