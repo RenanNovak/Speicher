@@ -31,8 +31,8 @@
       </Button>
       <TableView layoutX="62.0" layoutY="68.0" opacity="0.5" prefHeight="338.0" prefWidth="677.0">
          <columns>
-            <TableColumn prefWidth="75.0" text="Column X" />
-            <TableColumn prefWidth="75.0" text="Column X" />
+            <TableColumn prefWidth="134.99996948242188" text="Nome Tarefa" />
+            <TableColumn minWidth="0.0" prefWidth="541.0" text="Conteudo Tarefa" />
          </columns></TableView>
       <Button fx:id="incluirtarefa" layoutX="276.0" layoutY="417.0" mnemonicParsing="false" onAction="#incluirtarefa" prefHeight="25.0" prefWidth="155.0" text="Incluir">
          <font>
