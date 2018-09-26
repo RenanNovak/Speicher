@@ -19,6 +19,8 @@ import java.sql.SQLException;
 
 import java.io.IOException;
 
+import static com.sun.tools.doclint.Entity.and;
+
 public class CadastroController {
 
     @FXML
@@ -48,40 +50,34 @@ public class CadastroController {
     }
 
     @FXML
-    public void cadastrarlogin (ActionEvent actionEvent) throws SQLException {
-        //System.out.println("Dado inserido no banco de dados!");
-        Connection conn = ConnectionFactory.getConnection();
-
-        //String ssq = "INSERT INTO user (nameUser, passwordUser, emailUser) " +
-                //"VALUES ( \'" +
-                //namelogin.getText() + "\', \'" +
-               // senhalogin.getText() + "\', \''" +
-               // emaillogin.getText() + "\')";
-
-        PreparedStatement stmt = conn.prepareStatement("INSERT INTO user (nameUser, passwordUser, emailUser) " +
-                "VALUES ( \'" +
-                namelogin.getText() + "\', \'" +
-                senhalogin.getText() + "\', \'" +
-                emaillogin.getText() + "\')");
-
-        stmt.execute();
+    public void cadastrarlogin (ActionEvent actionEvent) throws SQLException, IOException {
+        //if () {
+            //JOptionPane.showMessageDialog(null, "Informaçoes incorretas, náo deixe nenhum campo em branco");
+        //}
+       // else {
+            Connection conn = ConnectionFactory.getConnection();
 
 
+            PreparedStatement stmt = conn.prepareStatement("INSERT INTO user (nameUser, passwordUser, emailUser) " +
+                    "VALUES ( \'" +
+                    namelogin.getText() + "\', \'" +
+                    senhalogin.getText() + "\', \'" +
+                    emaillogin.getText() + "\')");
+
+            stmt.execute();
             namelogin.setText("");
             senhalogin.setText("");
             emaillogin.setText("");
 
-        JOptionPane.showMessageDialog(null, "Cadastro foi efetuado com sucesso");
+            JOptionPane.showMessageDialog(null, "Cadastro foi efetuado com sucesso");
 
-        /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
-        delete.execut1e();*/
-        //Node b = (Node) actionEvent.getSource();
-       // b.getScene().getWindow().hide();
+            Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+            Main.stage.setScene(new Scene(root, 800, 500));
 
 
-        System.out.println(actionEvent.getSource());
+            System.out.println(actionEvent.getSource());
 
-        //JOptionPane.showMessageDialog(null, "Informaçoes incorretas, náo deixe nenhum campo em branco");
+        //}
     }
 
 

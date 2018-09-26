@@ -67,7 +67,7 @@ public class IncluirTarefaController {
         //Node b = (Node) actionEvent.getSource();
         // b.getScene().getWindow().hide();
 
-        JOptionPane.showMessageDialog(null, "Informaçoes salvas com sucesso");
+        JOptionPane.showMessageDialog(null, "Informacoes salvas com sucesso");
         System.out.println(actionEvent.getSource());
     }
 
