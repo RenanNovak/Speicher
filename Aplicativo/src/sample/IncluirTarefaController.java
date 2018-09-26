@@ -10,6 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -66,7 +67,7 @@ public class IncluirTarefaController {
         //Node b = (Node) actionEvent.getSource();
         // b.getScene().getWindow().hide();
 
-
+        JOptionPane.showMessageDialog(null, "Informaçoes salvas com sucesso");
         System.out.println(actionEvent.getSource());
     }
 

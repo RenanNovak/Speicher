@@ -10,9 +10,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+
+import javax.swing.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 
 import java.io.IOException;
 
@@ -62,6 +65,14 @@ public class CadastroController {
                 emaillogin.getText() + "\')");
 
         stmt.execute();
+
+
+            namelogin.setText("");
+            senhalogin.setText("");
+            emaillogin.setText("");
+
+        JOptionPane.showMessageDialog(null, "Cadastro foi efetuado com sucesso");
+
         /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
         delete.execut1e();*/
         //Node b = (Node) actionEvent.getSource();
@@ -69,6 +80,8 @@ public class CadastroController {
 
 
         System.out.println(actionEvent.getSource());
+
+        //JOptionPane.showMessageDialog(null, "Informaçoes incorretas, náo deixe nenhum campo em branco");
     }
 
 

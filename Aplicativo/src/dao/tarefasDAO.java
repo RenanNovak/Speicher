@@ -1,8 +1,8 @@
 package dao;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 import entity.tarefas;
 
@@ -24,7 +24,29 @@ public class tarefasDAO {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }}
+    }
+
+    public List<tarefas> getTarefas() {
+        Connection conn = (new ConnectionFactory()).getConnection();
+        List<tarefas> todasTarefas = null;
+        try {
+            PreparedStatement p = conn.prepareStatement("SELECT * FROM TAREFA");
+            ResultSet rs = p.executeQuery();
+            todasTarefas = new ArrayList<>();
+            while (rs.next()) {
+                tarefas t = new tarefas();
+                t.setIdtarefa(rs.getInt("idtarefa"));
+                t.setNametarefa(rs.getString("nametarefa"));
+                t.setTextotarefa(rs.getString("textotarefa"));
+                todasTarefas.add(t);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return todasTarefas;
+    }
+
+}
 
 
 

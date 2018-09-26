@@ -1,6 +1,8 @@
 package sample;
 
 
+import dao.UserDAO;
+import entity.User;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -9,6 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+import javax.swing.*;
 import java.io.IOException;
 
 public class LoginController {
@@ -30,8 +33,20 @@ public class LoginController {
 
     @FXML
     public void setLoginentrar() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Index.fxml"));
-        Main.stage.setScene(new Scene(root, 800, 500));
+        UserDAO dao = new UserDAO();
+        User user = new User();
+        user.setNameuser(loginemail.getText());
+        user.setEmailuser(loginemail.getText());
+        user.setPassworduser(loginsenha.getText());
+        boolean isAuth = dao.getUserByAuthentication(user);
+
+        if (isAuth) {
+            JOptionPane.showMessageDialog(null, "Informacoes Corretas, Bem Vindo ao Speicher");
+            Parent root = FXMLLoader.load(getClass().getResource("Index.fxml"));
+            Main.stage.setScene(new Scene(root, 800, 500));
+        } else {
+            JOptionPane.showMessageDialog(null, "Informacoes incorretas, tente novamente");
+        }
     }
 
 

@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 
+import javax.swing.*;
 import java.io.IOException;
 
 public class IndexController {
@@ -39,6 +40,7 @@ public class IndexController {
 
     @FXML
     public void sairindex() throws IOException {
+        JOptionPane.showMessageDialog(null, "Voce esta saindo do aplicativo, ate logo...!!!");
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         Main.stage.setScene(new Scene(root, 800, 500));
     }

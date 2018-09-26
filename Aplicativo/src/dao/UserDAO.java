@@ -2,6 +2,7 @@ package dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
 import entity.User;
@@ -24,7 +25,30 @@ public class UserDAO {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }}
+    }
+
+    public boolean getUserByAuthentication(User user) {
+        try {
+            // Cria a conexão com o banco de dados
+            Connection conn = (new ConnectionFactory()).getConnection();
+            PreparedStatement p =
+                    conn.prepareStatement("select * from user where (nameuser = ? or emailuser = ?) and  passworduser = ?");
+            p.setString(1, user.getNameuser());
+            p.setString(2, user.getEmailuser());
+            p.setString(3, user.getPassworduser());
+
+            ResultSet rs = p.executeQuery();
+            if (rs.next()) {
+                return true;
+            }
+            p.close();
+            conn.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+}
 
 //	// Método para atualizar
 //	public class UserDAOUpdate {
