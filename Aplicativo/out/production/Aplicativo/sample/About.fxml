@@ -29,7 +29,7 @@
             <Font name="Arial" size="10.0" />
          </font>
       </Label>
-      <Label layoutX="78.0" layoutY="77.0" prefHeight="23.0" prefWidth="638.0" text="Aplicativo desenvolvido no curso de engeneharia de software da Universidade da região de " textOverrun="CLIP">
+      <Label layoutX="78.0" layoutY="77.0" prefHeight="23.0" prefWidth="638.0" text="Aplicativo desenvolvido no curso de engenharia de software da Universidade da região de " textOverrun="CLIP">
          <font>
             <Font name="Arial" size="15.0" />
          </font>
@@ -40,5 +40,15 @@
          </font>
       </Label>
       <Button fx:id="aboutvoltar" layoutX="377.0" layoutY="420.0" mnemonicParsing="false" onAction="#aboutvoltar" text="Voltar" />
+      <Label layoutX="78.0" layoutY="169.0" prefHeight="23.0" prefWidth="631.0" text="renannovak@univille.edu.br" textOverrun="CLIP">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="146.0" text="Contato">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
     </children>
 </Pane>
