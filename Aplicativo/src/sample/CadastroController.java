@@ -51,10 +51,10 @@ public class CadastroController {
 
     @FXML
     public void cadastrarlogin (ActionEvent actionEvent) throws SQLException, IOException {
-        //if () {
-            //JOptionPane.showMessageDialog(null, "Informaçoes incorretas, náo deixe nenhum campo em branco");
+       //
+           // JOptionPane.showMessageDialog(null, "Informaçoes incorretas, náo deixe nenhum campo em branco");
         //}
-       // else {
+       //else {
             Connection conn = ConnectionFactory.getConnection();
 
 
