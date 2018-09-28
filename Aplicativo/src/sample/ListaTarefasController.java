@@ -65,6 +65,7 @@ public class ListaTarefasController implements Initializable {
         Main.stage.setScene(new Scene(root, 800, 500));
     }
 
+
     @FXML
     public void editartarefa() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("EditarTarefa.fxml"));
