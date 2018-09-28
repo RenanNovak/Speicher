@@ -24,12 +24,12 @@
                 <Font name="Arial" size="20.0" />
             </font>
         </Label>
-      <Button fx:id="excluirtarefa" onAction="#deletartarefa" layoutX="586.0" layoutY="417.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Excluir">
+      <Button fx:id="excluirtarefa" layoutX="586.0" layoutY="417.0" mnemonicParsing="false" onAction="#deletartarefa" prefHeight="25.0" prefWidth="155.0" text="Excluir">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <TableView fx:id="listatarefas" layoutX="62.0" layoutY="68.0" opacity="0.5" prefHeight="338.0" prefWidth="677.0">
+      <TableView fx:id="listatarefas" layoutX="62.0" layoutY="68.0" opacity="0.9" prefHeight="338.0" prefWidth="677.0">
          <columns>
             <TableColumn fx:id="nometarefa" prefWidth="134.99996948242188" text="Nome Tarefa" />
             <TableColumn fx:id="conteudotarefa" minWidth="0.0" prefWidth="541.0" text="Conteudo Tarefa" />
