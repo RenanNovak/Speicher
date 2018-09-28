@@ -40,6 +40,22 @@ public class tarefasDAO {
         }
     }
 
+    public void updateTarefa(tarefas t) {
+        try {
+            // Cria a conexão com o banco de dados
+            Connection conn = (new ConnectionFactory()).getConnection();
+            PreparedStatement p = conn.prepareStatement("update tarefa set nametarefa=?, textotarefa=? where idtarefa=?");
+            p.setString(1, t.getNametarefa());
+            p.setString(2, t.getTextotarefa());
+            p.setLong(3, t.getIdtarefa());
+            p.execute();
+            p.close();
+            conn.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public List<tarefas> getTarefas() {
         Connection conn = (new ConnectionFactory()).getConnection();
         List<tarefas> todasTarefas = null;
