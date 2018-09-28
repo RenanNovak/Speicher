@@ -67,12 +67,17 @@ public class ListaTarefasController implements Initializable {
 
     @FXML
     public void editartarefa() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("EditarTarefa.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("EditarTarefa.fxml"));
+        Parent root = loader.load();
+        EditarTarefaController editar = loader.getController();
+        tarefaView tView = (tarefaView) listatarefas.getSelectionModel().getSelectedItem();
         Main.stage.setScene(new Scene(root, 800, 500));
+        editar.load(tarefaAdapter.adaptarViewParaTarefa(tView));
     }
 
     @FXML
     public void deletartarefa() throws IOException {
+
         tarefaView tView = (tarefaView) listatarefas.getSelectionModel().getSelectedItem();
         tarefasDAO dao = new tarefasDAO();
         dao.delete(tView.getId());
