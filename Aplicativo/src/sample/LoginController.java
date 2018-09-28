@@ -45,8 +45,12 @@ public class LoginController {
             Parent root = FXMLLoader.load(getClass().getResource("Index.fxml"));
             Main.stage.setScene(new Scene(root, 800, 500));
         } else {
+
             JOptionPane.showMessageDialog(null, "Informacoes incorretas, tente novamente",
             "Erro",JOptionPane.ERROR_MESSAGE);
+            loginemail.setText("");
+            loginsenha.setText("");
+
         }
     }
 

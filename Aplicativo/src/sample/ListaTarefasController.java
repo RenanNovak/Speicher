@@ -1,8 +1,6 @@
 package sample;
 
 import dao.tarefasDAO;
-import entity.tarefas;
-import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -16,10 +14,9 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import util.tarefaAdapter;
 import util.tarefaView;
-
+import javax.swing.*;
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class ListaTarefasController implements Initializable {
@@ -83,6 +80,7 @@ public class ListaTarefasController implements Initializable {
         tarefasDAO dao = new tarefasDAO();
         dao.delete(tView.getId());
         reload();
+        JOptionPane.showMessageDialog(null, "Informacoes deletadas com sucesso");
     }
 
     public void reload() throws IOException {

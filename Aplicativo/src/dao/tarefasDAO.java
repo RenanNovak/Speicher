@@ -9,10 +9,9 @@ import entity.tarefas;
 public class tarefasDAO {
 
 
-    //inserir tarefas BD
+
     public void insert(tarefas tarefas) {
         try {
-            // Cria a conexão com o banco de dados
             Connection conn = (new ConnectionFactory()).getConnection();
             PreparedStatement p =
                     conn.prepareStatement("insert into tarefa( nametarefa,textotarefa) values(?, ?) ");
@@ -28,7 +27,6 @@ public class tarefasDAO {
 
     public void delete(Long id) {
         try {
-            // Cria a conexão com o banco de dados
             Connection conn = (new ConnectionFactory()).getConnection();
             PreparedStatement p = conn.prepareStatement("delete from tarefa where idtarefa=?");
             p.setLong(1, id);
@@ -42,7 +40,6 @@ public class tarefasDAO {
 
     public void updateTarefa(tarefas t) {
         try {
-            // Cria a conexão com o banco de dados
             Connection conn = (new ConnectionFactory()).getConnection();
             PreparedStatement p = conn.prepareStatement("update tarefa set nametarefa=?, textotarefa=? where idtarefa=?");
             p.setString(1, t.getNametarefa());

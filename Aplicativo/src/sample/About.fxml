@@ -14,38 +14,48 @@
             <Image url="@img/01.jpg" />
          </image>
         </ImageView>
-        <Label layoutX="78.0" layoutY="54.0" text="Sobre">
+        <Label layoutX="75.0" layoutY="76.0" text="Sobre:">
             <font>
                 <Font name="Arial" size="20.0" />
             </font>
         </Label>
-      <Label layoutX="84.0" layoutY="287.0" text="Referencias:">
+      <Label contentDisplay="CENTER" layoutX="81.0" layoutY="324.0" text="Referencias:" textAlignment="CENTER">
          <font>
             <Font name="Arial" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="84.0" layoutY="310.0" prefHeight="11.0" prefWidth="638.0" text="https://followthecolours.com.br/wp-content/uploads/2015/03/follow-the-colours-cerebro-memoria-criatividade-shutterstock_171381824-copy.jpg">
+      <Label layoutX="81.0" layoutY="347.0" prefHeight="11.0" prefWidth="638.0" text="https://followthecolours.com.br/wp-content/uploads/2015/03/follow-the-colours-cerebro-memoria-criatividade-shutterstock_171381824-copy.jpg">
          <font>
             <Font name="Arial" size="10.0" />
          </font>
       </Label>
-      <Label layoutX="78.0" layoutY="77.0" prefHeight="23.0" prefWidth="638.0" text="Aplicativo desenvolvido no curso de engenharia de software da Universidade da região de " textOverrun="CLIP">
+      <Label layoutX="75.0" layoutY="99.0" prefHeight="23.0" prefWidth="638.0" text="Aplicativo desenvolvido no curso de engenharia de software da Universidade da região de " textOverrun="CLIP">
          <font>
             <Font name="Arial" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="78.0" layoutY="100.0" prefHeight="23.0" prefWidth="631.0" text="Joinville na materia de programação orientada a objetos" textOverrun="CLIP">
+      <Label layoutX="75.0" layoutY="122.0" prefHeight="23.0" prefWidth="631.0" text="Joinville na materia de programação orientada a objetos" textOverrun="CLIP">
          <font>
             <Font name="Arial" size="16.0" />
          </font>
       </Label>
       <Button fx:id="aboutvoltar" layoutX="377.0" layoutY="420.0" mnemonicParsing="false" onAction="#aboutvoltar" text="Voltar" />
-      <Label layoutX="78.0" layoutY="169.0" prefHeight="23.0" prefWidth="631.0" text="renannovak@univille.edu.br" textOverrun="CLIP">
+      <Label layoutX="78.0" layoutY="200.0" prefHeight="23.0" prefWidth="631.0" text="Renan Novak  - renannovak@univille.edu.br" textOverrun="CLIP">
          <font>
             <Font name="Arial" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="78.0" layoutY="146.0" text="Contato">
+      <Label layoutX="75.0" layoutY="177.0" text="Contato:">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="271.0" prefHeight="23.0" prefWidth="631.0" text="Mathaus Erich Ulbrich - mathulbrich@gmail.com" textOverrun="CLIP">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="250.0" text="Colaboração:">
          <font>
             <Font name="Arial" size="20.0" />
          </font>

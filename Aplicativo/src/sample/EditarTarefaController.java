@@ -1,25 +1,19 @@
 package sample;
 
-import dao.ConnectionFactory;
 import dao.tarefasDAO;
 import entity.tarefas;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
-
 import javax.swing.*;
 import java.io.IOException;
-import java.net.URL;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.ResourceBundle;
+
 
 public class EditarTarefaController {
 
@@ -46,31 +40,15 @@ public class EditarTarefaController {
     }
 
     @FXML
-    public void salvaredit (ActionEvent actionEvent) throws SQLException {
+    public void salvaredit (ActionEvent actionEvent) throws SQLException, IOException {
 
         tarefasDAO dao = new tarefasDAO();
         dao.updateTarefa(t);
+        JOptionPane.showMessageDialog(null, "Informacoes editadas com sucesso");
+        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("ListaTarefas.fxml"));
+        Main.stage.setScene(new Scene(root, 800.0D, 500.0D));
 
-        //Connection conn = ConnectionFactory.getConnection();
 
-        //String ssq = "UPDATE tarefa set (nametarefa, textotarefa) " +
-         //               "VALUES ( \'" +
-         //               nometarefa.getText() + "\', \'" +
-        //                textotarefa.getHtmlText() + "\')";
-
-        //PreparedStatement stmt = conn.prepareStatement("UPDATE tarefa set (nametarefa, textotarefa) " +
-         //       "VALUES ( \'" +
-        //        nometarefa.getText() + "\', \'" +
-        //        textotarefa.getHtmlText() + "\')");
-
-        //stmt.execute();
-        /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
-        delete.execut1e();*/
-        //Node b = (Node) actionEvent.getSource();
-        // b.getScene().getWindow().hide();
-        //JOptionPane.showMessageDialog(null, "Informaçoes editadas com sucesso");
-
-        //System.out.println(actionEvent.getSource());
     }
 
 }

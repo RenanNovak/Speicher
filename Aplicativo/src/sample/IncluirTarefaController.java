@@ -10,7 +10,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
 import org.jsoup.Jsoup;
-
 import javax.swing.*;
 import java.io.IOException;
 import java.sql.Connection;
@@ -46,15 +45,11 @@ public class IncluirTarefaController {
 
 
     @FXML
-    public void salvartarefas (ActionEvent actionEvent) throws SQLException {
-        //System.out.println("Dado inserido no banco de dados!");
+    public void salvartarefas (ActionEvent actionEvent) throws SQLException, IOException {
+
         Connection conn = ConnectionFactory.getConnection();
 
-        //String ssq = "INSERT INTO user (nameUser, passwordUser, emailUser) " +
-        //"VALUES ( \'" +
-        //namelogin.getText() + "\', \'" +
-        // senhalogin.getText() + "\', \''" +
-        // emaillogin.getText() + "\')";
+
 
         PreparedStatement stmt = conn.prepareStatement("INSERT INTO tarefa (nametarefa, textotarefa) " +
                 "VALUES ( \'" +
@@ -63,12 +58,11 @@ public class IncluirTarefaController {
                 Jsoup.parse(textotarefa.getHtmlText()).text() + "\')");
 
         stmt.execute();
-        /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
-        delete.execut1e();*/
-        //Node b = (Node) actionEvent.getSource();
-        // b.getScene().getWindow().hide();
+
 
         JOptionPane.showMessageDialog(null, "Informacoes salvas com sucesso");
+        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("ListaTarefas.fxml"));
+        Main.stage.setScene(new Scene(root, 800.0D, 500.0D));
         System.out.println(actionEvent.getSource());
     }
 
