@@ -35,18 +35,22 @@ public class ListaTarefasController implements Initializable {
     @FXML
     private Button  homehome;
 
-    ObservableList<tarefaView> registros;
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        TableColumn coluna = (TableColumn) listatarefas.getColumns().get(0);
-        coluna.setCellFactory(new PropertyValueFactory<tarefaView, String>("nometarefa"));
-        listatarefas.getColumns().get(1);
 
         tarefasDAO dao = new tarefasDAO();
-        List<tarefas> todasTarefas = dao.getTarefas();
-        registros = FXCollections.observableList(new tarefaAdapter().adaptarTodosParaView(todasTarefas));
-        listatarefas.setItems(registros);
+        final ObservableList<tarefaView> listaTarefas = FXCollections
+                .observableList(
+                        tarefaAdapter.adaptarTodosParaView(dao.getTarefas()
+                        )
+                );
+
+        TableColumn colunaNome = (TableColumn) listatarefas.getColumns().get(0);
+        TableColumn colunaDesc = (TableColumn) listatarefas.getColumns().get(1);
+        colunaNome.setCellValueFactory(new PropertyValueFactory<tarefaView, String>("nometarefa"));
+        colunaDesc.setCellValueFactory(new PropertyValueFactory<tarefaView, String>("conteudotarefa"));
+
+        listatarefas.setItems(listaTarefas);
     }
 
     @FXML
@@ -64,6 +68,19 @@ public class ListaTarefasController implements Initializable {
     @FXML
     public void editartarefa() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("EditarTarefa.fxml"));
+        Main.stage.setScene(new Scene(root, 800, 500));
+    }
+
+    @FXML
+    public void deletartarefa() throws IOException {
+        tarefaView tView = (tarefaView) listatarefas.getSelectionModel().getSelectedItem();
+        tarefasDAO dao = new tarefasDAO();
+        dao.delete(tView.getId());
+        reload();
+    }
+
+    public void reload() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("ListaTarefas.fxml"));
         Main.stage.setScene(new Scene(root, 800, 500));
     }
 

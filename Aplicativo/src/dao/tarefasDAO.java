@@ -26,6 +26,20 @@ public class tarefasDAO {
         }
     }
 
+    public void delete(Long id) {
+        try {
+            // Cria a conexão com o banco de dados
+            Connection conn = (new ConnectionFactory()).getConnection();
+            PreparedStatement p = conn.prepareStatement("delete from tarefa where idtarefa=?");
+            p.setLong(1, id);
+            p.execute();
+            p.close();
+            conn.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public List<tarefas> getTarefas() {
         Connection conn = (new ConnectionFactory()).getConnection();
         List<tarefas> todasTarefas = null;

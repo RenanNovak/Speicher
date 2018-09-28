@@ -7,14 +7,14 @@ import java.util.List;
 
 public class tarefaAdapter {
 
-    public tarefaView adpaptarParaView(tarefas t) {
-        return new tarefaView(t.getNametarefa(), t.getTextotarefa());
+    public static tarefaView adpaptarParaView(tarefas t) {
+        return new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa());
     }
 
-    public List<tarefaView> adaptarTodosParaView(List<tarefas> tarefasList) {
+    public static List<tarefaView> adaptarTodosParaView(List<tarefas> tarefasList) {
         List<tarefaView> lista = new ArrayList<tarefaView>();
         for (tarefas t : tarefasList) {
-            lista.add(new tarefaView(t.getNametarefa(), t.getTextotarefa()));
+            lista.add(new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa()));
         }
         return lista;
     }

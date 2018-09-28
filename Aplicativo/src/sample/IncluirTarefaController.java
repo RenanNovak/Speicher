@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
+import org.jsoup.Jsoup;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -59,7 +60,7 @@ public class IncluirTarefaController {
                 "VALUES ( \'" +
                 nometarefa.getText() + "\', \'" +
 
-                textotarefa.getHtmlText() + "\')");
+                Jsoup.parse(textotarefa.getHtmlText()).text() + "\')");
 
         stmt.execute();
         /*PreparedStatement delete = conn.prepareStatement("delete from tarefa");
