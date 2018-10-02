@@ -14,9 +14,10 @@ public class tarefasDAO {
         try {
             Connection conn = (new ConnectionFactory()).getConnection();
             PreparedStatement p =
-                    conn.prepareStatement("insert into tarefa( nametarefa,textotarefa) values(?, ?) ");
+                    conn.prepareStatement("insert into tarefa( nametarefa,textotarefa,dono) values(?, ?, ?) ");
             p.setString(1, tarefas.getNametarefa());
             p.setString(2, tarefas.getTextotarefa());
+            p.setLong(3, tarefas.getDono());
             p.execute();
             p.close();
             conn.close();
@@ -53,11 +54,12 @@ public class tarefasDAO {
         }
     }
 
-    public List<tarefas> getTarefas() {
+    public List<tarefas> getTarefas(long id) {
         Connection conn = (new ConnectionFactory()).getConnection();
         List<tarefas> todasTarefas = null;
         try {
-            PreparedStatement p = conn.prepareStatement("SELECT * FROM TAREFA");
+            PreparedStatement p = conn.prepareStatement("SELECT * FROM TAREFA WHERE DONO = ?");
+            p.setLong(1, id);
             ResultSet rs = p.executeQuery();
             todasTarefas = new ArrayList<>();
             while (rs.next()) {
@@ -65,6 +67,7 @@ public class tarefasDAO {
                 t.setIdtarefa(rs.getInt("idtarefa"));
                 t.setNametarefa(rs.getString("nametarefa"));
                 t.setTextotarefa(rs.getString("textotarefa"));
+                t.setDono(rs.getLong("dono"));
                 todasTarefas.add(t);
             }
         } catch (SQLException e) {

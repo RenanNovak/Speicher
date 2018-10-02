@@ -7,11 +7,13 @@ public class tarefaView {
     private Long id;
     private SimpleStringProperty nometarefa;
     private SimpleStringProperty conteudotarefa;
+    private long dono;
 
-    public tarefaView(Long id, String nometarefa, String conteudotarefa) {
+    public tarefaView(Long id, String nometarefa, String conteudotarefa, long dono) {
         this.nometarefa = new SimpleStringProperty(nometarefa);
         this.conteudotarefa = new SimpleStringProperty(conteudotarefa);
         this.id = id;
+        this.dono = dono;
     }
 
     public String getNometarefa() {
@@ -24,6 +26,10 @@ public class tarefaView {
 
     public Long getId() {
         return id;
+    }
+
+    public long getDono() {
+        return dono;
     }
 
 }

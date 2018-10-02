@@ -25,6 +25,8 @@ public class LoginController {
     @FXML
    private Button loginvoltar;
 
+    public static User usuario;
+
     @FXML
     public void loginvoltar() throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
@@ -38,10 +40,11 @@ public class LoginController {
         user.setNameuser(loginemail.getText());
         user.setEmailuser(loginemail.getText());
         user.setPassworduser(loginsenha.getText());
-        boolean isAuth = dao.getUserByAuthentication(user);
+        User authUser = dao.getUserByAuthentication(user);
 
-        if (isAuth) {
+        if (authUser != null) {
             JOptionPane.showMessageDialog(null, "Informacoes Corretas, Bem Vindo ao Speicher");
+            usuario = authUser;
             Parent root = FXMLLoader.load(getClass().getResource("Index.fxml"));
             Main.stage.setScene(new Scene(root, 800, 500));
         } else {

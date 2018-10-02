@@ -5,6 +5,7 @@ public class tarefas {
     private long idtarefa;
     private String nametarefa;
     private String textotarefa;
+    private long dono;
 
 
     public long getIdtarefa() {
@@ -29,6 +30,14 @@ public class tarefas {
 
     public void setTextotarefa (String textotarefa) {
         this.textotarefa = textotarefa;
+    }
+
+    public void setDono(long dono) {
+        this.dono = dono;
+    }
+
+    public long getDono() {
+        return dono;
     }
 
 }

@@ -10,6 +10,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.HTMLEditor;
+import org.jsoup.Jsoup;
+
 import javax.swing.*;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -41,7 +43,8 @@ public class EditarTarefaController {
 
     @FXML
     public void salvaredit (ActionEvent actionEvent) throws SQLException, IOException {
-
+        t.setNametarefa(nometarefa.getText());
+        t.setTextotarefa(Jsoup.parse(textotarefa.getHtmlText()).text());
         tarefasDAO dao = new tarefasDAO();
         dao.updateTarefa(t);
         JOptionPane.showMessageDialog(null, "Informacoes editadas com sucesso");

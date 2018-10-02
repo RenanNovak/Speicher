@@ -8,7 +8,7 @@ import java.util.List;
 public class tarefaAdapter {
 
     public static tarefaView adpaptarParaView(tarefas t) {
-        return new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa());
+        return new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa(), t.getDono());
     }
 
     public static tarefas adaptarViewParaTarefa(tarefaView tv) {
@@ -16,13 +16,14 @@ public class tarefaAdapter {
         t.setIdtarefa(tv.getId());
         t.setNametarefa(tv.getNometarefa());
         t.setTextotarefa(tv.getConteudotarefa());
+        t.setDono(tv.getDono());
         return t;
     }
 
     public static List<tarefaView> adaptarTodosParaView(List<tarefas> tarefasList) {
         List<tarefaView> lista = new ArrayList<tarefaView>();
         for (tarefas t : tarefasList) {
-            lista.add(new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa()));
+            lista.add(new tarefaView(t.getIdtarefa(), t.getNametarefa(), t.getTextotarefa(), t.getDono()));
         }
         return lista;
     }

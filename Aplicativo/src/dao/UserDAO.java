@@ -27,7 +27,7 @@ public class UserDAO {
         }
     }
 
-    public boolean getUserByAuthentication(User user) {
+    public User getUserByAuthentication(User user) {
         try {
 
             Connection conn = (new ConnectionFactory()).getConnection();
@@ -39,14 +39,19 @@ public class UserDAO {
 
             ResultSet rs = p.executeQuery();
             if (rs.next()) {
-                return true;
+                user  = new User();
+                user.setNameuser(rs.getString("nameuser"));
+                user.setEmailuser(rs.getString("emailuser"));
+                user.setPassworduser(rs.getString("passworduser"));
+                user.setIduser(rs.getLong("iduser"));
+                return user;
             }
             p.close();
             conn.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return false;
+        return null;
     }
 }
 

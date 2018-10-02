@@ -1,6 +1,8 @@
 package sample;
 
 import dao.ConnectionFactory;
+import dao.tarefasDAO;
+import entity.tarefas;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -49,16 +51,13 @@ public class IncluirTarefaController {
 
         Connection conn = ConnectionFactory.getConnection();
 
+        tarefas t = new tarefas();
+        t.setNametarefa(nometarefa.getText());
+        t.setTextotarefa(Jsoup.parse(textotarefa.getHtmlText()).text());
+        t.setDono(LoginController.usuario.getIduser());
 
-
-        PreparedStatement stmt = conn.prepareStatement("INSERT INTO tarefa (nametarefa, textotarefa) " +
-                "VALUES ( \'" +
-                nometarefa.getText() + "\', \'" +
-
-                Jsoup.parse(textotarefa.getHtmlText()).text() + "\')");
-
-        stmt.execute();
-
+        tarefasDAO dao = new tarefasDAO();
+        dao.insert(t);
 
         JOptionPane.showMessageDialog(null, "Informacoes salvas com sucesso");
         Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("ListaTarefas.fxml"));

@@ -38,7 +38,7 @@ public class ListaTarefasController implements Initializable {
         tarefasDAO dao = new tarefasDAO();
         final ObservableList<tarefaView> listaTarefas = FXCollections
                 .observableList(
-                        tarefaAdapter.adaptarTodosParaView(dao.getTarefas()
+                        tarefaAdapter.adaptarTodosParaView(dao.getTarefas(LoginController.usuario.getIduser())
                         )
                 );
 
