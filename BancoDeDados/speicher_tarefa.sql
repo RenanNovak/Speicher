@@ -26,8 +26,11 @@ CREATE TABLE `tarefa` (
   `idtarefa` int(11) NOT NULL AUTO_INCREMENT,
   `nametarefa` varchar(200) NOT NULL,
   `textotarefa` varchar(200) NOT NULL,
-  PRIMARY KEY (`idtarefa`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `dono` int(11) NOT NULL,
+  PRIMARY KEY (`idtarefa`),
+  KEY `tarefa_ibfk_1` (`dono`),
+  CONSTRAINT `tarefa_ibfk_1` FOREIGN KEY (`dono`) REFERENCES `user` (`iduser`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +39,7 @@ CREATE TABLE `tarefa` (
 
 LOCK TABLES `tarefa` WRITE;
 /*!40000 ALTER TABLE `tarefa` DISABLE KEYS */;
-INSERT INTO `tarefa` VALUES (1,'Elba','Ragnarok'),(2,'Elba','Ragnarok'),(3,'Elba','Ragnarok'),(4,'Elba','Ragnarok');
+INSERT INTO `tarefa` VALUES (9,'TRAB POO','TRABALHO FINALIZADO',32),(10,'teste','teste',33);
 /*!40000 ALTER TABLE `tarefa` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-09-20 21:42:32
+-- Dump completed on 2018-10-02 21:27:09
